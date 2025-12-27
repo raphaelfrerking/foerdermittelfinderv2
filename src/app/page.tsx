@@ -4,7 +4,7 @@ export default function HomePage() {
       <div className="max-w-4xl w-full bg-white rounded-3xl shadow-2xl p-8 md:p-12">
         <div className="text-center">
           <div className="mb-6">
-            <span className="text-6xl">🇪🇺</span>
+            <span className="text-6xl">💰</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
@@ -12,7 +12,7 @@ export default function HomePage() {
           </h1>
           
           <p className="text-xl text-gray-700 mb-8">
-            KI-gestützter Antrags-Assistent für deutsche und EU-Fördermittel
+            KI-gestützter Antrags-Assistent für EU-, Bundes- und Landesförderungen
           </p>
           
           <div className="bg-yellow-400 rounded-2xl p-6 mb-8">
