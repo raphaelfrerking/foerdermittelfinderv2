@@ -1,3 +1,5 @@
+import Button from '@/components/Button'
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-blue-900 flex items-center justify-center p-4">
@@ -48,6 +50,18 @@ export default function HomePage() {
             <p className="text-sm text-gray-500">
               Projekt erfolgreich gestartet! 🎉
             </p>
+
+            <div className="mt-6 flex gap-4 justify-center">
+              <Button variant="primary" size="lg">
+                Jetzt starten
+              </Button>
+              <Button variant="secondary" size="lg">
+                Demo ansehen
+              </Button>
+              <Button variant="outline" size="md">
+                Mehr erfahren
+              </Button>
+            </div>
           </div>
         </div>
       </div>
